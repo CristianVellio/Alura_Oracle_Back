@@ -9,5 +9,12 @@ public class Main {
 
         double media = (8.2 + 9.5 + 8.0) / 3;
         System.out.println("La media de las calificaciones es: " + media);
+
+        String sinopsis = """
+                Un pirata informático aprende de la existencia de la Matrix
+                y se une a un grupo de rebeldes para luchar contra ella. 
+                Fue lanzada en:
+                """ + fechaDeEstreno;
+        System.out.println(sinopsis);
     }
 }
