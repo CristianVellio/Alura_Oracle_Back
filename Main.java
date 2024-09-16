@@ -16,5 +16,9 @@ public class Main {
                 Fue lanzada en:
                 """ + fechaDeEstreno;
         System.out.println(sinopsis);
+
+        int clasificacion = (int) (media / 2);
+        System.out.println("La clasificación de la película es: " + clasificacion);
+
     }
 }
